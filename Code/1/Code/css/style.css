@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+html, body{
+    font-family: 'Abel', sans-serif !important;
+    height: 100%;
+    width: 100%;
+}
+.bg-black{
+    background-color: #17191e !important;
+}
+.bg-yellow{
+    background-color: #ffda00 !important;
+}
+.text-yellow{
+    color:#ffda00 !important;
+}
+.py-7{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.px-6{
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+}
+#First-area{
+    width: 100%;
+    height: 85vh;
+}
+#First-area h1{
+    padding-top: 10vh;
+    font-size: 11vw !important;
+    line-height: 10vw;
+}
+@media only screen and (max-width:765px){
+    #First-area h1{
+        padding-top: 15vh;
+        font-size: 18vw !important;
+        line-height: 17vw;
+    }
+    .Services{
+        text-align: center;
+    }
+    #Buttons{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-top: 0rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .form-row{
+        margin-left: 0% !important;
+    }
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+}
+#First-area a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+#First-area a:hover{
+    color: black !important;
+}
+.cart {
+    background-size: cover;
+    background-position: center center;
+    border: 5px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition: background-color ease 1s;
+}
+.cart span{
+    visibility: hidden;
+}
+.cart:hover span{
+    visibility: visible;
+}
+.form-control{
+    border: 1.4px solid #000000 !important;
+    border-radius: 0rem !important;
+}
+#cardArea1{
+    background-image: url("../image/coffee.jpg");
+}
+#cardArea2{
+    background-image: url("../image/email.png");
+}
+#cardArea3{
+    background-image: url("../image/imac.png");
+}
+#cardArea4{
+    background-image: url("../image/office.jpg");
+}
+#cardArea5{
+    background-image: url("../image/typing.jpg");
+}
+#cardArea6{
+    background-image: url("../image/workplace.jpg");
+}
+#cardArea1:hover{
+    background-blend-mode: color-burn;
+    background-color: #0e0d0db0;
+}
+#cardArea2:hover{
+    background-blend-mode: color-burn;
+    background-color: #0e0d0db0;
+}
+#cardArea3:hover{
+    background-blend-mode: color-burn;
+    background-color: #0e0d0db0;
+}
+#cardArea4:hover{
+    background-blend-mode: color-burn;
+    background-color: #0e0d0db0;
+}
+#cardArea5:hover{
+    background-blend-mode: color-burn;
+    background-color: #0e0d0db0;
+}
+#cardArea6:hover{
+    background-blend-mode: color-burn;
+    background-color: #0e0d0db0;
+}
