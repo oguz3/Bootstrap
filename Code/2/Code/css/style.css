@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+.ml-6 {
+  margin-left: 12rem !important;
+}
+.ml-7 {
+  margin-left: 24rem !important;
+}
+.pl-6{
+  padding-left: 9rem;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+#firstArea {
+  background-image: url(../Image/arkaplan.png);
+  background-size: 100% 100%;
+  background-position: right top;
+}
+#secondArea {
+  background-image: url(../Image/bg-2.png);
+  background-size: 100% 100%;
+  background-position: left top;
+}
+#thirdArea {
+  background-image: url(../Image/bg-4.png);
+  background-size: 100% 100%;
+  background-position: right top;
+}
+#fourthArea {
+  background-image: url(../Image/bg-2.png);
+  background-size: 100% 100%;
+  background-position: left top;
+}
+.desk img {
+  margin-left: -75px;
+}
+.bg-theme{
+  background-color: #314584;
+}
+#header h1 {
+  font-family: "Work Sans", sans-serif !important;
+  color: #314584 !important;
+  font-weight: bold !important;
+  margin-top: 25vh;
+  font-size: 75px;
+  line-height: 90px;
+}
+a {
+  font-family: "Work Sans", sans-serif !important;
+  color: #314584 !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+h2 {
+  font-family: "Work Sans", sans-serif !important;
+  color: #314584 !important;
+  font-weight: bold !important;
+  line-height: 1.4;
+}
+h4 {
+  font-family: "Work Sans", sans-serif !important;
+  color: #314584;
+  font-weight: bold !important;
+  line-height: 1.4;
+}
+h5 {
+  font-family: "Work Sans", sans-serif !important;
+  color: #314584;
+  font-weight: 600;
+  font-size: 18px;
+}
+p {
+  font-family: "Work Sans", sans-serif !important;
+  color: #314584;
+  font-size: 14px;
+}
+.navbar-nav a:hover{
+  background-color: #dc3545;
+  border-radius: 50px;
+  color: white !important;
+  font-weight: 500 !important;
+}
+.card {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.432);
+}
+.card:hover {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.397);
+}
+.prev:hover,
+.next:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+.fadee {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#button:hover{
+    color: white !important;
+    font-weight: 400 !important;
+}
+#blogCard {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.432);
+}
+#blogCard:hover {
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.397);
+  background-color: #ff3946;
+}
+#blogCard:hover p{
+  color: white !important;
+}
+#blogCard:hover h5{
+  color: white;
+}
+#blogCard:hover i{
+  color: white !important;
+}
+.form-control{
+  background-color: #f4fafe;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+::placeholder{
+  color: #314584 !important;
+  font-weight: 700;
+}
+@media (max-width: 1199.98px) { 
+  #header {
+    margin-left: 5vw;
+  }
+  #header h1 {
+    margin-top: 5vh;
+  }
+  .illus1{
+    margin-left: 5rem;
+  }
+  .illus1 img {
+    width: 400px;
+  }
+  .desk img {
+    margin-left: -30px;
+  }
+}
+@media (max-width: 989px) { 
+  .navbar-nav{
+    margin-left: 0px !important;
+  }
+  #navbarNavAltMarkup{
+    padding: inherit;
+    background-color: #f4fafe;
+  }
+  #navbarNavAltMarkup a{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #navbarNavAltMarkup .btn{
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+  }
+  .logoImage{
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+  .logoImage img{
+    padding-left: 0px !important;
+  }
+  #header{
+    text-align: center;
+  }
+  .illus1 {
+    display: none;
+  }
+  .secondheader br:nth-child(1){
+    display: none;
+  }
+  #Card .col-md-4{
+    -ms-flex:0 0 50%;
+    flex:0 0 50%;
+    max-width:50%
+  }
+  .desk img {
+    margin-left: -25px !important;
+  }
+}
+@media (max-width: 450px) { 
+  .logoImage img{
+    width: 100px !important;
+  }
+  #header {
+    margin-bottom: 0px !important;
+    margin-left: 0px;
+  }
+  #header h1 {
+    margin-top: 12vh !important;
+    font-size: 55px !important;
+    line-height: 60px;
+  }
+  #header h1 br {
+    display: none;
+  }
+  .illus1{
+    display: none;
+  }
+  .secondheader br{
+    display: none;
+  }
+  #thirdArea {
+    display: none;
+  }
+  .desk img {
+    margin-left: 0px !important;
+  }
+  #Card .col-md-4{
+    flex: none;
+    max-width: 100%;
+  }
+}
